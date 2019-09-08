@@ -1,0 +1,76 @@
+.Show {
+  padding-left: 75px;
+  padding-right: 75px;
+  height: 330px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+
+  &-image {
+    height: 100%;
+    & img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  &-info {
+    padding-left: 20px;
+    color: white;
+    & h1 {
+      color: white;
+    }
+    &-seasons {
+      font-size: 14px;
+    }
+    &-genere {
+      display: flex;
+      align-items: center;
+      &-generes {
+        margin-left: 5px;
+        & .ant-tag {
+          color: #00abe3;
+          padding: 5px;
+        }
+      }
+    }
+    &-classification {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    &-description {
+      font-size: 16px;
+    }
+  }
+  &-avaliableon {
+    padding-left: 20px;
+    &-title {
+      font-size: 11px;
+      color: white;
+      & .ant-tag {
+        margin-left: 5px;
+        color: black;
+        font-weight: bold;
+      }
+    }
+    &-button {
+      padding: 5px 15px 5px 15px;
+      margin-top: 10px;
+      margin-right: 12px;
+      margin-bottom: 12px;
+      background: linear-gradient(to bottom, #009ec9 0%, #1a62b3 100%);
+      color: white;
+      border: 1px solid transparent;
+      display: inline-flex;
+      vertical-align: middle;
+      justify-content: center;
+      background-color: white;
+      font-size: 13px !important;
+      border-radius: 3px;
+    }
+    &-avaliableuntil {
+      color: white;
+      & span {
+        font-weight: bold;
+      }
+    }
+  }
+}

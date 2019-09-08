@@ -1,0 +1,28 @@
+.Header {
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  display: flex;
+  border-bottom: 1px solid #4e5680;
+  box-shadow: 0px 8px 28px rgba(10, 10, 10, 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: rgba(29, 31, 46, 0.9) !important;
+
+  &-menu {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex: 1 1 auto;
+    color: #999999;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

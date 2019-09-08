@@ -1,0 +1,58 @@
+.Top {
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  padding-left: 75px;
+  padding-right: 75px;
+  &-donthave {
+    & .ant-btn {
+      margin-left: 5px;
+      margin-right: 5px;
+      background-color: #4a3e1e;
+      border-color: #ffbf00;
+      color: #ffbf00;
+      & a {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &-onlyclients {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #999999;
+  }
+  &-help {
+    margin-left: 5px;
+    margin-right: 15px;
+    color: #00abe3;
+    font-weight: bold;
+  }
+  &-actions {
+    display: flex;
+    &-signin {
+      & .ant-btn {
+        margin-left: 5px;
+        margin-right: 15px;
+        background-color: #4a3e1e;
+        border-color: #00abe3;
+        color: #00abe3;
+        & a {
+          font-weight: bold;
+        }
+      }
+    }
+    &-country {
+      & .ant-btn {
+        background-color: transparent;
+        color: white;
+        border: none;
+      }
+    }
+  }
+}

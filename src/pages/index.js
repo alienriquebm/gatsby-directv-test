@@ -1,12 +1,15 @@
 import React from "react"
-import { Button } from 'antd';
+
+import Top from '../components/top';
+import Header from '../components/Header';
+import Show from '../components/Show';
+
+// Styles
 import 'antd/dist/antd.css';
 import './index.scss';
 
-export default () => <div className="Main">
-  <Button type="primary">Primary</Button>
-  <Button>Default</Button>
-  <Button type="dashed">Dashed</Button>
-  <Button type="danger">Danger</Button>
-  <Button type="link">Link</Button>
+export default () => <div className="Index">
+  <Top />
+  <Header/>
+  <Show/>
 </div>
