@@ -22,7 +22,7 @@ const menu = (
   </Menu>
 );
 
-export default () => <div className="Top">
+const Top = () => <div className="Top">
   <div className="Top-donthave">
     ¿No tienes DIRECTV?
     <Button ghost>
@@ -50,3 +50,5 @@ export default () => <div className="Top">
     </div>
   </div>
 </div>
+
+export default Top;

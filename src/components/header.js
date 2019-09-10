@@ -5,7 +5,7 @@ import { Icon } from "antd";
 // Styles
 import './header.scss';
 
-export default () => <div className="Header">
+const Header = () => <div className="Header">
   <div className="Header-logo">
     <img src={'https://experience-dtv.tbxnet.com/images/logo.png?_v=0.3.6'}></img>
   </div>
@@ -36,3 +36,5 @@ export default () => <div className="Header">
     </div>
   </div>
 </div>
+
+export default Header;
