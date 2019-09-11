@@ -1,7 +1,10 @@
 {
-  "endOfLine": "lf",
-  "semi": false,
-  "singleQuote": false,
-  "tabWidth": 2,
-  "trailingComma": "es5"
+  "semi": true,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "endOfLine":"auto"
 }
