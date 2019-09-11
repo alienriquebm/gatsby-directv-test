@@ -9,9 +9,7 @@ const Show = () => (
   <div className="Show">
     <div className="Show-image">
       <img
-        src={`https://unity-img.tbxapis.com/v0/images/
-      9d29a3723e9925c375478e2c88cac95f/content/5ae4c013b4b91c26c2ac4114/
-      ffdfdaaedc80e8a5ec11411d96d2f47a/img.jpg?_v=0.3.6`}
+        src="https://unity-img.tbxapis.com/v0/images/9d29a3723e9925c375478e2c88cac95f/content/5ae4c013b4b91c26c2ac4114/ffdfdaaedc80e8a5ec11411d96d2f47a/img.jpg?_v=0.3.6"
         alt="Directv"
       />
     </div>
